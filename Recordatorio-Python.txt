@@ -1,0 +1,165 @@
+															RECORDATORIO PYTHON
+				CADENAS DE CARACTERES
+Concatenación (+): Unión de dos o más cadenas.
+
+Repetición (*): Repetición de una cadena un número determinado de veces.
+
+Indexación: Acceso a caracteres específicos dentro de una cadena utilizando índices.
+
+Slicing: Extracción de subcadenas utilizando notaciones de inicio y fin de índices.
+
+Longitud (len): Determinación del número de caracteres en una cadena.
+
+Se cubrirán también funciones integradas de Python para manipular cadenas, como:
+
+upper(): Convierte todos los caracteres de una cadena a mayúsculas.
+
+lower(): Convierte todos los caracteres de una cadena a minúsculas.
+
+replace(): Reemplaza una subcadena por otra dentro de una cadena.
+
+split(): Divide una cadena en una lista de subcadenas basadas en un delimitador.
+
+capitalize(): Convierte el primer carácter de la cadena a mayúscula y el resto a minúsculas.
+
+title(): Convierte el primer carácter de cada palabra a mayúscula y el resto a minúsculas.
+
+count(): Cuenta cuántas veces aparece una subcadena en la cadena.
+
+find(): Devuelve el índice de la primera aparición de una subcadena en la cadena. Si no se encuentra, devuelve -1.
+
+join(): Une una lista de cadenas utilizando la cadena como separador.
+
+strip(): Elimina los caracteres especificados (por defecto, espacios) desde el principio y el final de la cadena.
+
+replace(): Reemplaza todas las apariciones de una subcadena por otra subcadena.
+
+
+				LISTAS [] Son mutables, lo que significa que sus elementos pueden ser cambiados, agregados o eliminados.
+append(x): Añade un ítem al final de la lista.
+
+extend(iterable): Extiende la lista agregando todos los ítems de un iterable.
+
+insert(i, x): Inserta un ítem en una posición dada.
+
+remove(x): Elimina el primer ítem de la lista cuyo valor sea x.
+
+pop([i]): Elimina el ítem en la posición dada de la lista y lo devuelve.
+
+clear(): Elimina todos los elementos de la lista.
+
+index(x[, start[, end]]): Devuelve el índice del primer ítem cuyo valor sea x.
+
+count(x): Devuelve el número de veces que x aparece en la lista.
+
+sort(key=None, reverse=False): Ordena los ítems de la lista (los argumentos pueden ser usados para personalizar el orden).
+
+reverse(): Invierte los elementos de la lista.
+
+copy(): Devuelve una copia superficial de la lista.
+
+				TUPLAS () Son inmutables, una vez creadas, sus elementos no pueden ser modificados.
+ 
+				CONJUNTOS {} son colecciones no ordenadas de elementos únicos. Esto significa que no pueden contener elementos duplicados y que el orden de los elementos no está garantizado.
+add(x): Añade un ítem al conjunto.
+
+remove(x): Elimina un ítem del conjunto. Genera un error si el ítem no existe.
+
+discard(x): Elimina un ítem del conjunto si existe.
+
+pop(): Elimina y devuelve un ítem arbitrario del conjunto.
+
+clear(): Elimina todos los elementos del conjunto.
+
+union(*others): Devuelve la unión de conjuntos.
+
+intersection(*others): Devuelve la intersección de conjuntos.
+
+difference(*others): Devuelve la diferencia de conjuntos.
+
+symmetric_difference(other): Devuelve la diferencia simétrica de conjuntos.
+
+issubset(other): Verifica si el conjunto es un subconjunto de otro.
+
+issuperset(other): Verifica si el conjunto es un superconjunto de otro.
+
+copy(): Devuelve una copia superficial del conjunto.
+
+				DICCIONARIOS {} con valores separados por :   son estructuras de datos que permiten almacenar colecciones de pares clave-valor.
+get(key[, default]): Devuelve el valor de la clave. Si la clave no existe, devuelve el valor por defecto.
+
+keys(): Devuelve una vista de las claves en el diccionario.
+
+values(): Devuelve una vista de los valores en el diccionario.
+
+items(): Devuelve una vista de los pares clave-valor en el diccionario.
+
+pop(key[, default]): Elimina la clave y devuelve su valor. Si la clave no existe, devuelve el valor por defecto.
+
+popitem(): Elimina y devuelve un par clave-valor aleatorio del diccionario.
+
+clear(): Elimina todos los ítems del diccionario.
+
+update([other]): Actualiza el diccionario con los pares clave-valor de other, sobrescribiendo las claves existentes.
+
+setdefault(key[, default]): Si la clave está en el diccionario, devuelve su valor. Si no, inserta la clave con el valor por defecto y devuelve el valor por defecto.
+
+				CONDICIONALES : if, elif y else, son fundamentales para la toma de decisiones dentro de un programa.
+				
+if evalúa una condición. Si la condición se evalúa como verdadera (True), el bloque de código asociado a la sentencia if se ejecuta.
+
+else se utiliza para ejecutar un bloque de código cuando ninguna de las condiciones anteriores (en if o elif) se cumple
+
+elif (abreviatura de "else if") se utiliza para evaluar múltiples condiciones secuenciales después de una sentencia if inicial.
+
+== : igual a
+
+!= : diferente de
+
+> : mayor que
+
+< : menor que
+
+>= : mayor o igual que
+
+<= : menor o igual que
+
+Los operadores lógicos se utilizan para combinar condiciones:
+
+and : devuelve True si ambas condiciones son verdaderas.
+
+or : devuelve True si al menos una de las condiciones es verdadera.
+
+not : invierte el valor de una condición (de True a False y viceversa).
+
+				INSTRUCCIONES: se utilizan para controlar el flujo de los bucles y manejar condiciones especiales durante la iteración.
+ break se utiliza para salir de un bucle de manera inmediata.
+ 
+ continue se utiliza para omitir el resto del código dentro del bucle actual y pasar a la siguiente iteración del bucle. 
+ 
+ pass se utiliza para no afectar al flujo del bucle; simplemente indica que no se debe realizar ninguna operación en ese punto.
+  
+				FOR :  se utiliza para iterar sobre los elementos de un objeto iterable, como listas, tuplas, diccionarios, conjuntos y cadenas.
+for elemento in iterable:
+ 
+elemento: Variable que toma el valor del siguiente elemento del iterable en cada iteración.
+
+iterable: Colección de elementos que se está iterando, como una lista o una tupla.
+
+range Se utiliza comúnmente en los bucles for para iterar un número específico de veces.
+
+				FUNCIONES def:  Una función es una agrupación de sentencias que realizan una tarea específica.
+
+def "nombre de la funcion" ():
+
+Palabra clave def: Indica el comienzo de la definición de una función.
+
+Nombre de la función: Un identificador único que se utiliza para llamar a la función.
+
+Paréntesis (): Contienen los parámetros de la función. Si no hay parámetros, los paréntesis están vacíos.
+
+Dos puntos :: Indican el inicio del bloque de código de la función.
+
+Sentencias: Bloque de código indentado que define las acciones que realizará la función.
+
+Valor de retorno: Utiliza la palabra clave return para devolver un valor desde la función al llamador (opcional).
